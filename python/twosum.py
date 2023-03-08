@@ -1,5 +1,3 @@
-import unittest
-
 class Solution:
     def twoSum(self, nums, target):
         for i in range(len(nums)):
@@ -7,7 +5,7 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
                 
-class test_cases(unittest.TestCase):
+class test_cases():
     def test_one(self):
         return Solution().twoSum([2, 7, 11, 15], 9)
     def test_two(self):
