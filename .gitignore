@@ -1,0 +1,9 @@
+# Generated files
+/rust/leetcode/target/
+
+# Pycache
+/python/__pycache__/
+
+# Csharp bin/obj
+/csharp/leetcode/bin/
+/csharp/leetcode/obj/
